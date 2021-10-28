@@ -1,0 +1,37 @@
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = false
+baseurl = "http://www.site.com"
+theme = "hugo-morphism"
+title = "Library Of Babel"
+
+[author]
+  name = "Alexander Moravski"
+
+[taxonomies]
+  category = "categories"
+  group = "groups"
+  series = "series"
+  tag = "tags"
+
+[params]
+  subtitle = "\"Mathematics exists solely for the honour of the human mind.\" \n- Carl Jacobi"
+  showFooter = false
+  showPoweredBy = false
+  # listPaginatorLimit = 1000000
+
+[[menu.nav]]
+  # name = "&#x1F3E0;"
+  name = "home"
+  pre = ""
+  weight = -110
+  identifier = "home"
+  url = "/"
+[[menu.nav]]
+  # name = "&#x1f4dc;"
+  name = "posts"
+  pre = ""
+  weight = -100
+  identifier = "posts"
+  url = "/posts"
